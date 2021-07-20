@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+        
+}
+h1{
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: bold;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 10px auto;
+        
+}
+#apps{
+    width: 100%;
+    height: 800px;
+    background-color: magenta;
+} 
+#myCarousel{
+    background-color:black;
+} 
+img{
+transition: transform .2s;
+    
+}
+img:hover{
+    transform: scale(0.9);
+}
+#chatbot{
+    width: 100%;
+    height:600px;
+    background-color:chartreuse;
+} 
+.carousel-inner p{
+    color: white;
+    font-size:30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
